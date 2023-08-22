@@ -1,0 +1,105 @@
+/* Reset some default styles */
+html, body, ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto Mono', monospace;
+    background-color: #1e1f21;
+    color: #ffffff;
+}
+
+header {
+    background-color: #1e1f21;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #db0042; /* Update the color on hover */
+}
+
+
+.social-media {
+    font-size: 24px;
+}
+
+.social-media a {
+    color: #ffffff;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+.social-media a:hover {
+    color: #db0042;
+}
+
+main {
+    padding: 40px;
+}
+
+h2, h3, h4 {
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+
+header h1 {
+    font-size: 28px !important; /* Adjust the font size as desired */
+    font-weight: bold;
+    color: #ffffff;
+}
+
+#projects {
+    margin-top: 40px;
+}
+
+.project-card {
+    background-color: #333333;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 2px ;
+    border-radius: 10px;
+}
+
+.project-card h4 {
+    color: #ffffff;
+}
+
+.project-card p {
+    color: #cccccc;
+}
+
+.project-card a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.project-card a:hover {
+    color: #808080;
+}
+
+footer {
+    background-color: #1a1a1a;
+    padding: 20px;
+    text-align: center;
+}
+
+
+
