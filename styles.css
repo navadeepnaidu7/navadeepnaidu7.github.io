@@ -101,5 +101,39 @@ footer {
     text-align: center;
 }
 
+#about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 0;
+    background-color: #1e1f21;
+}
+
+.profile {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.profile img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.bio {
+    text-align: center;
+    color: #ffffff;
+    max-width: 600px;
+}
+
+@media (max-width: 768px) {
+    .profile {
+        width: 120px;
+        height: 120px;
+    }
+}
 
 
